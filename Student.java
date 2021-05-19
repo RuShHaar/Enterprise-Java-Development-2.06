@@ -23,6 +23,8 @@ public class Student {
         return grade;
     }
 
+    //setGrade nur zwischen 0-100 möglich
+    //Andernfalls wird ein Defaultwert von 25 gesetzt
     public void setGrade(int grade) {
         if (grade >= 0 && grade <= 100) {
             this.grade = grade;
